@@ -1,0 +1,1 @@
+function l(s,{addClass:r,removeClass:t}){let e=s.join(" ");return t.split(" ").forEach(a=>{e=e.replace(new RegExp(a,"g"),"")}),e=e+" "+r,e}export{l as m};
