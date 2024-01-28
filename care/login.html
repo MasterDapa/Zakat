@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<-- XAPPLICATION BY VTEAM -->
+<head>
+<link rel="apple-touch-icon" href="../favicon.png" />
+<title>Login Care Donasi</title>
+<link rel="modulepreload" href="../_care/start-21c92e08.js">
+<link rel="modulepreload" href="../_care/chunks/vendor-5b6f1889.js">
+<link rel="modulepreload" href="../_care/chunks/singletons-12a22614.js">
+<link rel="modulepreload" href="../_care/layout.svelte-219411f4.js">
+<link rel="modulepreload" href="../_care/pages/care/__layout.svelte-285a1871.js">
+<link rel="modulepreload" href="../_care/chunks/config-284d3d96.js">
+<link rel="modulepreload" href="../_care/chunks/env-2990e8b0.js">
+<link rel="modulepreload" href="../_care/pages/care/login.svelte-410a6c79.js">
+<link rel="modulepreload" href="../_care/chunks/Button-63e990ac.js">
+<link rel="modulepreload" href="../_care/chunks/makeClassess-cf195905.js">
+<link rel="modulepreload" href="../_care/chunks/Email-596bc4bb.js">
+<link rel="modulepreload" href="../_care/chunks/Loader-b1c4c9c0.js">
+<link rel="modulepreload" href="../_care/chunks/sleep-928b0da4.js">
+<link rel="modulepreload" href="../_care/chunks/stores-e84a4db0.js">
+<link rel="stylesheet" href="../_care/assets/start-464e9d0a.css">
+<link rel="stylesheet" href="../_care/assets/vendor-1501baf7.css">
+<link rel="stylesheet" href="../_care/assets/pages/care/__layout.svelte-5b2d1a14.css">
+<link rel="stylesheet" href="../_care/assets/pages/care/login.svelte-cc37e794.css">
+<link rel="stylesheet" href="../_care/assets/Email-44f5b538.css">
+<script type="module">
+			import { start } from "/_care/start-21c92e08.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: (function(a){return {authenticated:a,registered:true,email:a}}(false)),
+				host: "donol-care.rumahzakat.org",
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("../_care/layout.svelte-219411f4.js"),
+						import("../_care/pages/care/__layout.svelte-285a1871.js"),
+						import("../_care/pages/care/login.svelte-410a6c79.js")
+					],
+					page: {
+						host: "donol-care.rumahzakat.org", // TODO this is redundant
+						path: "\u002Fcare\u002Flogin",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+</head>
+<body>
+<div id="svelte">
+<main class="max-w-screen-sm my-0 mx-auto min-h-full svelte-o3ll9c" style="--accent:#558b2f;--accent-hovered:#466d2a;--primary:#f26522;--primary-hovered:#de500d;--background:#f7f7f7"><main class="layout svelte-o3ll9c" style="--font-name: &#39;Roboto&#39;">
+<div class="bg-white pt-5 h-screen md:pt-24 sm:py-3 px-6 md:px-16 shadow">
+<div class="my-5"><h1 class="text-4xl mb-2 text-center">Selamat Datang</h1>
+<p class="font-thin text-center">Masuk untuk nikmati</p>
+<div class="px-3 py-2 w-auto relative flex justify-center pb-10 "><p class="border absolute py-2 px-8 text-primary rounded-md border-primary ">#Kemudahan Donasi</p></div></div>
+<form><div class="font-thin text-gray-500 my-5">
+<div class="relative group"><input aria-label="Email " type="text" class="h-full w-full border group outline-none focus:outline-none ease-linear transition-all duration-150 text-sm placeholder:font-thin placeholder:opacity-50 placeholder-tipis p-2 rounded flex items-center justify-center bg-white border-gray-300 hover:border-accent active:border-accent focus:border-accent group-hover:border-accent placeholder:font-thin placeholder:opacity-50 py-[16px] rounded-md  svelte-158n7mr" placeholder="Gunakan email yang terdaftar di Rumah Zakat" value>
+</div>
+</div></form>
+<div class="bg-primary w-full font-extralight rounded-3xl"><button class="h-full w-full border group shadow  outline-none focus:outline-none ease-linear transition-all duration-150 px-4 py-2 rounded flex items-center justify-center bg-gray-400 text-white  cursor-not-allowed hover:bg-gray-600 active:bg-gray-600 focus:bg-gray-600; rounded-md">Masuk</button></div>
+<div class="flex justify-center my-5"><span class="md:w-9 w-6 border-solid border-t-2 mt-5"></span>
+<span class="mx-2 mt-2">Sudah pernah login dengan google ?</span>
+<span class="md:w-9 w-6 border-solid border-t-2 mt-5"></span></div>
+<div class="bg-default w-full rounded-3xl my-3" disabled><button class="h-full w-full border group shadow  outline-none focus:outline-none ease-linear transition-all duration-150 px-4 py-2 rounded flex items-center justify-center  hover:bg-gray-50 active:bg-gray-50 focus:bg-gray-50; font-thin rounded-md"><div class="w-full flex gap-2 justify-center items-center"><div class><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_970:216)"><path d="M5.26599 9.765C5.73387 8.34945 6.63685 7.11781 7.84611 6.2458C9.05536 5.37378 10.5091 4.90594 12 4.909C13.69 4.909 15.218 5.509 16.418 6.491L19.91 3C17.782 1.145 15.055 0 12 0C7.26999 0 3.19799 2.698 1.23999 6.65L5.26599 9.765Z" fill="#EA4335"></path><path d="M16.0401 18.0129C14.9501 18.7159 13.5661 19.0909 12.0001 19.0909C10.5151 19.094 9.06686 18.6299 7.8603 17.7643C6.65373 16.8987 5.75 15.6755 5.27706 14.2679L1.23706 17.3349C2.22831 19.3412 3.76233 21.0293 5.66488 22.2075C7.56744 23.3857 9.76227 24.0066 12.0001 23.9999C14.9331 23.9999 17.7351 22.9569 19.8341 20.9999L16.0411 18.0129H16.0401Z" fill="#34A853"></path><path d="M19.834 21C22.029 18.952 23.454 15.904 23.454 12C23.454 11.29 23.345 10.527 23.182 9.81799H12V14.455H18.436C18.119 16.014 17.266 17.221 16.041 18.013L19.834 21Z" fill="#4A90E2"></path><path d="M5.27712 14.268C5.03247 13.5369 4.90819 12.771 4.90912 12C4.90912 11.218 5.03412 10.467 5.26612 9.76502L1.24012 6.65002C0.416494 8.31271 -0.00807994 10.1445 0.000116455 12C0.000116455 13.92 0.445116 15.73 1.23712 17.335L5.27712 14.268Z" fill="#FBBC05"></path></g><defs><clipPath id="clip0_970:216"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg></div>
+<div class><p class="whitespace-nowrap text-sm md:text-base">Gunakan kembali Google</p></div></div></button></div>
+<a href="../donasi.html" rel="external" class="fixed bottom-10"><div class><div class="flex border border-primary items-center w-full max-w-[120px] rounded-xl py-1 pr-3"><svg width="30px" height="30px" viewBox="0 0 24 24" fill="orange" xmlns="http://www.w3.org/2000/svg"><path d="M13.8302 18.9998C13.6808 19.0003 13.5332 18.9673 13.3982 18.9033C13.2632 18.8393 13.1443 18.7458 13.0502 18.6298L8.22016 12.6298C8.07308 12.4509 7.99268 12.2264 7.99268 11.9948C7.99268 11.7632 8.07308 11.5387 8.22016 11.3598L13.2202 5.35979C13.3899 5.15557 13.6338 5.02715 13.8982 5.00277C14.1627 4.97839 14.4259 5.06005 14.6302 5.22979C14.8344 5.39953 14.9628 5.64344 14.9872 5.90786C15.0116 6.17229 14.9299 6.43557 14.7602 6.63979L10.2902 11.9998L14.6102 17.3598C14.7324 17.5066 14.8101 17.6853 14.834 17.8749C14.8579 18.0644 14.827 18.2568 14.7449 18.4294C14.6629 18.6019 14.5331 18.7473 14.371 18.8484C14.2089 18.9495 14.0212 19.002 13.8302 18.9998Z" fill="orange"></path></svg>
+<p class="text-[#565656]">Kembali</p></div></div></a></div>
+<p class="fixed bottom-0 text-xs text-gray-200 text-center left-40 md:inset-x-32">v.7.0.9</p>
+<div class="bg-green-400 text-white w-full max-w-[480px] fixed bottom-[5.5rem] flex justify-start rounded delay-75 transition z-20"><div class="bg-[#22AD56] absolute box-custom text-white z-50 w-full max-w-[236px] min-h-[74px] right-2 bottom-[0.5rem] rounded-md mb-3 shadow-xl border-[1px] border-[#1D9449]  svelte-1br9san"><div class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle absolute right-1 top-1"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></div>
+<div class="px-4 flex items-center py-5">
+<p class="font-light text-[11px]"><b style="font-weight:800">Lupa atau belum memiliki email Login?</b> Hubungi Kami Disini </p></div>
+<div class="right-3 absolute w-0 h-0 border-t-[#22AD56] border-t-[15px] border-r-transparent border-r-[7px] border-l-transparent border-l-[7px] shadow-xl"></div></div></div>
+<div class="bg-green-400 text-white w-full z-20 max-w-[480px] fixed bottom-[6.2rem] flex justify-start rounded-full  delay-75 transition"><div class="absolute right-[2.8rem] bottom-100 bg-yellow-400 rounded-full text-red-500"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle "><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg></div></div>
+<div class="bg-green-400 z-20 text-white w-full max-w-[480px] fixed bottom-[4.8rem] flex justify-start rounded  delay-75 transition"><a href="https://api.whatsapp.com/send/?phone=6281573001555&amp;text=Assalamualaikum%20Rumahzakat%20,%20saya%20mau%20Menanyakan%20Tentang%20Email%20Login" rel="external" class="absolute right-3 bottom-100"><svg style="pointer-events:none; display:block; height=38px; width=38px" width="38px" height="38px" viewBox="0 0 1024 1024"><defs><path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"></path></defs><linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023"><stop offset="0" stop-color="#61fd7d"></stop><stop offset="1" stop-color="#2bb826"></stop></linearGradient><use xlink:href="#htwasqicona-chat" overflow="visible" fill="url(#htwasqiconb-chat)"></use><g><path fill="#FFF" d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z"></path></g></svg></a></div>
+</main>
+</main>
+</div>
+</body>
+
+<-- XAPPLICATION BY VTEAM -->
+</html>
+
